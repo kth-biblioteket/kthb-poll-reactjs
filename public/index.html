@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KTH Library</title>
+    <style type="text/css">
+
+    * {
+      overflow: hidden;
+    }
+
+	 	p {
+		  animation-duration: 3s;
+		  animation-name: slidein;
+		}
+
+		.background {
+			position: absolute;
+        	top: 0;
+        	left: 0;
+        	width: 1920px;
+        	height: 1080px;
+		}
+	  
+    </style>
+  </head>
+  <body>
+  	<img 
+      src='../javascripts/assets/Jamal2.jpg'
+      class="background"
+    />
+    <div id="piechart"></div>
+  </body>
+  <script src="http://localhost:8080/webpack-dev-server.js"></script>
+	<script src="http://localhost:8080/built/bundle.js"></script>
+	<script src="../iot/bundle.js"></script>
+</html>
